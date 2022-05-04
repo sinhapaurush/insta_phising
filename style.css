@@ -254,6 +254,7 @@ footer .container {
     margin: 4rem 0;
   }
   .container{padding-left:0px!important;padding-right:0px!important}
+  .get-the-app{display:none}
   footer {
     padding-bottom: 2rem;
   }
