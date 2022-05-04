@@ -253,7 +253,7 @@ footer .container {
     border: none;
     margin: 4rem 0;
   }
-  .container{padding-left:0;padding-right:0}
+  .container{padding-left:0px!important;padding-right:0px!important}
   footer {
     padding-bottom: 2rem;
   }
