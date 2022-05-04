@@ -6,7 +6,6 @@
   box-sizing: inherit;
 font-family:sans-serif;outline:0
 }
-
 html {
   font-size: 10px;
   box-sizing: border-box;
@@ -201,7 +200,8 @@ footer .container {
 }
 
 .footer-nav ul li a {
-  color: #003569;
+  color: #ddd;
+  font-size:15px
 }
 
 .copyright-notice {
